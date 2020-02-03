@@ -50,13 +50,22 @@ write first feature method:
 	}
 
 
---------------------
+-------------------- 
+order of feature method
+
 setupSpec
 setup
 feature method
 cleaup
 cleanupSpec
+-------------------
 
+->setup and given both are same,
+->we can't have two setup/given in single feature method.
+
+
+-> when and then will come together.
+-> expect and then both are same.
 
 
 	

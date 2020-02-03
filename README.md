@@ -15,7 +15,7 @@ supports maven and gradle build tool.
 
 
 -------------------
-Create groovy project, add spock-core library, add in buuld path.
+Create groovy project, add spock-core library, add in build path.
 convert this project in maven, remove from build path.
 
 add dependency 
@@ -54,10 +54,20 @@ write first feature method:
 	}
 
 
---------------------
+-------------------- 
+-> order of feature method
+
 setupSpec
 setup
 feature method
 cleaup
 cleanupSpec
+-------------------
+->setup and given both are same,
+->we cant have two setup/given in single feature method.
+
+
+-> when and then will come together.
+-> expect and then both are same.
+
 
